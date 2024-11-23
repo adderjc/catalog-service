@@ -1,0 +1,14 @@
+### GET a greeting
+GET localhost:9001/books
+
+
+### POST Creates a new book
+POST localhost:9001/books
+Content-Type: application/json
+
+{
+  "isbn":"LSDKFLSD34",
+  "title": "Spring Boot In Action",
+  "author": "John Doe",
+  "price": 35.50
+}
